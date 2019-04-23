@@ -35,16 +35,16 @@ type Rounding
 {-| Convert a float32 representation to a float16 representation by
 shifting bits accordingly within the representation.
 
-               *----- integer part, in base 2
-    sign -- *  |
-            |  |          *----- decimal part, in base 2
+               *-- integer part, in base 2
+     sign --*  |
+            |  |          *-- decimal part, in base 2
             |  |          |
             | /---\ /-------------\
            (s.iiiii.ddddddddddddddd)2 ~ (-1) ^ s * 1.mmmmmmmmmm * 2^e
-                                        \--------/     |
-                                            |          *----- exponent
-                                            |
-                                            *----- mantissa
+                                                     \--------/     |
+                                                         |          *-- exponent
+                                                         |
+                                                         *-- mantissa
 
 -}
 floatToHalf : Int -> Int

@@ -1,7 +1,10 @@
-<p align="center">
-  <img src=".github/logo.png" /><br/>
-  <a href="https://package.elm-lang.org/packages/elm-toulouse/float16/latest/"><img src="https://img.shields.io/elm-package/v/elm-toulouse/float16.svg?style=for-the-badge"/></a>
-</p>
+![](.github/logo.png)
+
+---
+
+[![](https://img.shields.io/elm-package/v/elm-toulouse/float16.svg?style=for-the-badge)](https://package.elm-lang.org/packages/elm-toulouse/float16/latest/) 
+[![](https://img.shields.io/travis/elm-toulouse/float16.svg?style=for-the-badge)](https://travis-ci.org/elm-toulouse/float16/builds)
+[![](https://img.shields.io/github/license/elm-toulouse/float16.svg?style=for-the-badge)](https://github.com/elm-toulouse/float16/blob/master/LICENSE)
 
 ## Getting Started
 
@@ -46,7 +49,3 @@ Code coverage available [here](https://elm-toulouse.github.io/float16)
 ## Changelog
 
 [CHANGELOG.md](CHANGELOG.md)
-
----
-
-<p align="center"><img src="https://img.shields.io/github/license/elm-toulouse/float16.svg?style=for-the-badge" /> </p>
