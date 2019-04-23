@@ -16,7 +16,7 @@ jobs:
   include:
     - stage: Build 🔨
       script:
-      - FORMAT=$(elm-format --validate src/ test/)
+      - FORMAT=$(elm-format --validate src/ tests/)
       - test "$FORMAT" = "[]" || (echo $FORMAT && exit 1)
 
     - stage: Build 🔨
