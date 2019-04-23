@@ -1,6 +1,6 @@
 <p align="center">
   <img src=".github/logo.png" /><br/>
-  <a href="https://package.elm-lang.org/packages/elm-toulouse/elm-float16/latest/"><img src="https://img.shields.io/elm-package/v/elm-toulouse/elm-float16.svg?style=for-the-badge"/></a>
+  <a href="https://package.elm-lang.org/packages/elm-toulouse/float16/latest/"><img src="https://img.shields.io/elm-package/v/elm-toulouse/float16.svg?style=for-the-badge"/></a>
 </p>
 
 ## Getting Started
@@ -41,7 +41,7 @@ decode =
 
 ## Testing
 
-Code coverage available [here](https://elm-toulouse.github.io/elm-float16)
+Code coverage available [here](https://elm-toulouse.github.io/float16)
 
 ## Changelog
 
@@ -49,4 +49,4 @@ Code coverage available [here](https://elm-toulouse.github.io/elm-float16)
 
 ---
 
-<p align="center"><img src="https://img.shields.io/github/license/elm-toulouse/elm-float16.svg?style=for-the-badge" /> </p>
+<p align="center"><img src="https://img.shields.io/github/license/elm-toulouse/float16.svg?style=for-the-badge" /> </p>
