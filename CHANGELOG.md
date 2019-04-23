@@ -1,5 +1,9 @@
 # Changelog 
 
+# v1.0.1 (2019-04-23)
+
+- Minor documentation adjustments
+
 # v1.0.0 (2019-04-23)
 
 - Implement binary encoder & decoder for half-precision floating numbers
