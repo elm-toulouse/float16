@@ -3,8 +3,9 @@
 ---
 
 [![](https://img.shields.io/elm-package/v/elm-toulouse/float16.svg?style=for-the-badge)](https://package.elm-lang.org/packages/elm-toulouse/float16/latest/) 
-[![](https://img.shields.io/travis/elm-toulouse/float16.svg?style=for-the-badge)](https://travis-ci.org/elm-toulouse/float16/builds)
-[![](https://img.shields.io/github/license/elm-toulouse/float16.svg?style=for-the-badge)](https://github.com/elm-toulouse/float16/blob/master/LICENSE)
+[![](https://img.shields.io/travis/elm-toulouse/float16.svg?style=for-the-badge&label=%F0%9F%94%A8%20Build)](https://travis-ci.org/elm-toulouse/float16/builds)
+[![](https://img.shields.io/codecov/c/gh/elm-toulouse/float16.svg?color=e84393&label=%E2%98%82%EF%B8%8F%20Coverage&style=for-the-badge)](https://codecov.io/gh/elm-toulouse/float16)
+[![](https://img.shields.io/github/license/elm-toulouse/float16.svg?style=for-the-badge&label=%20%F0%9F%93%84%20License)](https://github.com/elm-toulouse/float16/blob/master/LICENSE)
 
 ## Getting Started
 
@@ -41,10 +42,6 @@ decode =
     |> D.float32 BE
     |> D.float64 BE
 ```
-
-## Testing
-
-Code coverage available [here](https://elm-toulouse.github.io/float16)
 
 ## Changelog
 
