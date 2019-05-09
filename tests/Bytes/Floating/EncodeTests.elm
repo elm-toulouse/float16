@@ -42,7 +42,7 @@ suite =
         , float16 BE (-1 / 0)
             |> expect [ 0xFC, 0x00 ]
         , float16 BE (0 / 0)
-            |> expect [ 0xFC, 0x01 ]
+            |> expectOneOf [ [ 0xFC, 0x01 ], [ 0x7C, 0x01 ] ]
         ]
 
 
@@ -52,6 +52,15 @@ expect : List Int -> E.Encoder -> Test
 expect output input =
     test (Debug.toString input ++ " -> " ++ Debug.toString output) <|
         \_ -> hex (E.encode input) |> Expect.equal (Just output)
+
+
+expectOneOf : List (List Int) -> E.Encoder -> Test
+expectOneOf outputs input =
+    test (Debug.toString input ++ " -> one of " ++ Debug.toString outputs) <|
+        \_ ->
+            Expect.true
+                "expected one of given outputs"
+                (List.any (\x -> Just x == hex (E.encode input)) outputs)
 
 
 {-| Convert a list of BE unsigned8 to bytes
